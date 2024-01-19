@@ -1,3 +1,4 @@
+<?php
 $dsn="mysql:host=localhost;dbname=userDB";
 $dbusername="admin";
 $dbpassword="123456";
