@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $pdo=null;
     $stmt=null;
 
-    header("location: ../index.php");
+    header("location: index.php");
 
     die();
 
@@ -32,5 +32,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 }else{
     //the user needs to be sent to the front page.
-    header("location: ../index.php");
+    header("location: index.php");
 }
