@@ -1,3 +1,4 @@
+<?
 $dsn="mysql:host=localhost;dbname=userDB";
 $dbusername="admin";
 $dbpassword="123456";
@@ -9,3 +10,4 @@ try {
 } catch (PDOException $e) {
     echo "Connection failed: " .$e ->getMessage();
 }
+?>
